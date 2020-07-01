@@ -26,7 +26,7 @@ Create a virtualenv with the python system
 tox --devenv venv
 ```
 
-Activate the virtualenv 
+Activate the virtualenv
 
 ```bash
 . venv/bin/activate

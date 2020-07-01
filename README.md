@@ -35,7 +35,7 @@ other versions too. It also depends on Django's authentication system and
 assumes you use its usernames for authentication.
 
 Impostor is a [MMM](http://mmm.si) project  developed by Marko Samastur
-(markos@gaivo.net) and maintained by Andreu Vallbona (avallbona@gmail.com)  
+(markos@gaivo.net) and maintained by Andreu Vallbona (avallbona@gmail.com)
 licensed under MIT license.
 
 ## Installation
@@ -68,7 +68,7 @@ Also add `impostor` app to INSTALLED_APPS.
 
 ```python
 INSTALLED_APPS = [
-    '...', 
+    '...',
     'impostor',
 ]
 ```
