@@ -9,6 +9,7 @@
 ![Python package](https://github.com/avallbona/Impostor/workflows/Python%20package/badge.svg?branch=master)
 ![Upload Python Package](https://github.com/avallbona/Impostor/workflows/Upload%20Python%20Package/badge.svg?branch=master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/98d1f4b3225046e1aa839813b47bb44f)](https://www.codacy.com/manual/avallbona/Impostor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=avallbona/Impostor&amp;utm_campaign=Badge_Grade)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 Impostor is a Django application which allows staff members to login as
 a different user by using their own username and password.
