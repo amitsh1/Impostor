@@ -17,13 +17,17 @@ class ImpostorAdmin(admin.ModelAdmin):
     readonly_fields = ('impostor', 'imposted_as', 'impostor_ip', 'logged_in', 'logged_out', 'token')
     search_fields = ('impostor__username', 'imposted_as__username')
 
-    def add_view(self, request, form_url='', extra_context=None):
+    def add_view(self, request, object_id, form_url='', extra_context=None):
         request.method = 'GET'
-        return super(ImpostorAdmin, self).add_view(request, form_url, extra_context)
+        return super().change_view(
+            request, object_id, form_url, extra_context=extra_context,
+        )
 
     def change_view(self, request, object_id, form_url='', extra_context=None):
         request.method = 'GET'
-        return super(ImpostorAdmin, self).change_view(request, form_url, extra_context)
+        return super().change_view(
+            request, object_id, form_url, extra_context=extra_context,
+        )
 
     def delete_view(self, request, object_id, extra_context=None):
         model = self.model
